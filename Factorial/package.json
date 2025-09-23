@@ -6,7 +6,7 @@
     "test": "mocha ./tests/**.test.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ayenya and Gift",
   "license": "ISC",
   "type": "module",
   "devDependencies": {

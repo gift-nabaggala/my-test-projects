@@ -20,6 +20,10 @@ describe("multiply function", () => {
     });
 
     it("should return the product of two positive numbers", function () {
-    assert.equal(multiply(23, 45), 23 * 45);
+    assert.equal(multiply(23, 45), 1035);
   });
+    it("-5 * -5 = 25 ", function () {
+    assert.equal(multiply(-5, -5), 25);
+    });
+
   });

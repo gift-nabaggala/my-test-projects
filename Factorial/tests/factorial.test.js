@@ -5,6 +5,7 @@ import factorial from "../factorial.js";
 describe('Testing the factorial for 0 and 1', () => {
   it('return 1 for factorial(0)', () => {
     assert.equal(factorial(0), 1);
+
   })
   it('return 1 for factorial(1)', () => {
     assert.equal(factorial(1), 1);
