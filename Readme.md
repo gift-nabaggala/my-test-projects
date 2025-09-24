@@ -13,4 +13,11 @@
  3. Run `npm test` to execute the tests for that module.
  
   Repeat these steps for each folder you wish to test.
+
+## Folders to Test
+* Multiply
+* Factorial
+* Fibonacci
+
+
  
