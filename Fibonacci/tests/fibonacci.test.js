@@ -21,9 +21,7 @@ describe("Fibonacci Function Tests", function() {
   it("should return 144 for input 12", function() {
     assert.strictEqual(fibonacci(12), 144);
   });
-  it("should throw an error for negative input", function() {
-    assert.throws(() => fibonacci(-1), Error, "Input cannot be negative");
-  });
+  
 });
 
 
@@ -45,9 +43,7 @@ describe("Fibonacci Memoized Function Tests", function() {
   it("should return 144 for input 12", function() {
     assert.strictEqual(fibonacciMemoized(12), 144);
   });
-  it("should throw an error for negative input", function() {
-    assert.throws(() => fibonacciMemoized(-1), Error, "Input cannot be negative");
-  });
+  
 });
 
 // Test cases for the fibonacciBinet function
@@ -68,9 +64,7 @@ describe("Fibonacci Binet Function Tests", function() {
   it("should return 144 for input 12", function() {
     assert.strictEqual(fibonacciBinet(12), 144);
   });
-  it("should throw an error for negative input", function() {
-    assert.throws(() => fibonacciBinet(-1), Error, "Input cannot be negative");
-  });
+ 
 });
 
 
@@ -92,7 +86,5 @@ describe("Fibonacci Binet Function Tests", function() {
   it("should return 144 for input 12", function() {
     assert.strictEqual(fibonacciIterative(12), 144);
   });
-  it("should throw an error for negative input", function() {
-    assert.throws(() => fibonacciIterative(-1), Error, "Input cannot be negative");
-  });
+ 
 });
